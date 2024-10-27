@@ -1,0 +1,23 @@
+﻿  Events.cpp
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(116,30): warning C4244: +=: преобразование "double" в "T", возможна потеря данных
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(116,30): warning C4244:         with
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(116,30): warning C4244:         [
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(116,30): warning C4244:             T=float
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(116,30): warning C4244:         ]
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(117,30): warning C4244: +=: преобразование "double" в "T", возможна потеря данных
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(117,30): warning C4244:         with
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(117,30): warning C4244:         [
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(117,30): warning C4244:             T=float
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(117,30): warning C4244:         ]
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(122,17): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(122,17): warning C4244:         with
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(122,17): warning C4244:         [
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(122,17): warning C4244:             T=float
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(122,17): warning C4244:         ]
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(123,17): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(123,17): warning C4244:         with
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(123,17): warning C4244:         [
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(123,17): warning C4244:             T=float
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(123,17): warning C4244:         ]
+D:\source\repos\EngineThing\EngineThing\src\events\Events.cpp(128,23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  EngineThing.vcxproj -> D:\source\repos\EngineThing\x64\Debug\EngineThing.exe
