@@ -1,18 +1,17 @@
 #include "Window.h"
+
 #include <iostream>
 #include <GL\glew.h>
 #include <GLFW\glfw3.h>
 
-
-GLFWwindow* Window::sm_Window = nullptr;
-int Window::sm_Width = 0;
-int Window::sm_Height = 0;
+#include "../events/Events.h"
 
 int Window::initialize(int width, int height, const char* title)
 {
 	glewExperimental = GL_TRUE;
 
-	if (!glfwInit()) {
+	if (!glfwInit())
+	{
 		return -1;
 	}
 
@@ -21,23 +20,25 @@ int Window::initialize(int width, int height, const char* title)
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
-	sm_Window = glfwCreateWindow(width, height, title, nullptr, nullptr);
-	if (!sm_Window) {
+	m_Window = glfwCreateWindow(width, height, title, nullptr, nullptr);
+	if (!m_Window)
+	{
 		std::cerr << "Failed to create GLFW window" << std::endl;
 		glfwTerminate();
 		return -1;
 	}
-	glfwMakeContextCurrent(sm_Window);
+	glfwMakeContextCurrent(m_Window);
 
-	if (glewInit() != GLEW_OK) {
+	if (glewInit() != GLEW_OK)
+	{
 		std::cerr << "Failed to initialize GLEW" << std::endl;
 		glfwTerminate();
 		return -1;
 	}
 
 	glViewport(0, 0, width, height);
-	sm_Width = width;
-	sm_Height = height;
+	m_Width = width;
+	m_Height = height;
 
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -50,32 +51,37 @@ void Window::terminate()
 	glfwTerminate();
 }
 
-bool Window::shouldClose()
+bool Window::shouldClose() const
 {
-	return glfwWindowShouldClose(sm_Window);
+	return glfwWindowShouldClose(m_Window);
 }
 
 void Window::setShouldClose(bool flag)
 {
-	glfwSetWindowShouldClose(sm_Window, flag);
+	glfwSetWindowShouldClose(m_Window, flag);
 }
 
-void Window::swapBuffers()
+void Window::swapBuffers() const
 {
-	glfwSwapBuffers(sm_Window);
+	glfwSwapBuffers(m_Window);
 }
 
-int Window::getWidth()
+int Window::getWidth() const
 {
-	return sm_Width;
+	return m_Width;
 }
 
-int Window::getHeight()
+int Window::getHeight() const
 {
-	return sm_Height;
+	return m_Height;
 }
 
-void Window::clearScreen()
+GLFWwindow* Window::getWindowPtr() const
+{
+	return m_Window;
+}
+
+void Window::clearScreen() const
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 }

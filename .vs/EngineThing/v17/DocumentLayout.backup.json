@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\source\\repos\\EngineThing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\circle2D\\Circle2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -42,24 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "test.cpp",
-              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\test.cpp",
-              "RelativeDocumentMoniker": "EngineThing\\src\\test.cpp",
-              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\test.cpp",
-              "RelativeToolTip": "EngineThing\\src\\test.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-17T20:48:48.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Window.cpp",
               "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\window\\Window.cpp",
               "RelativeDocumentMoniker": "EngineThing\\src\\window\\Window.cpp",
@@ -72,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Window.h",
               "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\window\\Window.h",
               "RelativeDocumentMoniker": "EngineThing\\src\\window\\Window.h",
@@ -85,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Object2DBase.h",
               "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.h",
               "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\Object2DBase.h",
@@ -98,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Circle2D.cpp",
               "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
               "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
@@ -111,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Primitives2D.cpp",
               "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Primitives2D.cpp",
               "RelativeDocumentMoniker": "EngineThing\\src\\graphics\\render2D\\Primitives2D.cpp",
@@ -124,20 +107,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Circle2D.h",
               "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
               "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
               "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
               "RelativeToolTip": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-17T20:41:52.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Primitives2D.h",
               "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Primitives2D.h",
               "RelativeDocumentMoniker": "EngineThing\\src\\graphics\\render2D\\Primitives2D.h",

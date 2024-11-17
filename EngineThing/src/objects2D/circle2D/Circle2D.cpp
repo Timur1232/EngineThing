@@ -21,14 +21,15 @@ Circle2D::Circle2D(const glm::ivec2& pos, float radius, float thickness)
 	this->thickness = thickness;
 }
 
-void Circle2D::draw()
+void Circle2D::draw(const Window& window)
 {
-	Render2D::draw_circle(position, radius, thickness, color);
+	Render2D::draw_circle(position, radius, thickness, color, window);
 }
 
-bool Circle2D::onHover()
+bool Circle2D::onHover(const Events& events, const Window& window)
 {
-	float length = glm::length(Events::mousePos() - position) / Window::getHeight() * 2;
+	// TODO: Переделать метод
+	float length = glm::length(events.mousePos() - position) / window.getHeight() * 2;
 	if (length <= radius)
 		return true;
 	return false;

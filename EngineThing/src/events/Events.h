@@ -1,48 +1,51 @@
 #pragma once
 
-#include <types.h>
-
 #include <glm/glm.hpp>
+
+#include <types.h>
 
 struct GLFWwindow;
 
-#define KEYS_SIZE 1032
-#define MOUSE_BUTTONS 1024
+constexpr int KEYS_SIZE = 1032;
+constexpr int MOUSE_BUTTONS = 1024;
 
 class Events
 {
 public:
+	Events() = default;
+	Events(const Events&) = delete;
 
-	static int initialize();
-	static void pollIvents();
+	int bindWindow(GLFWwindow* window);
+	void pollIvents() const;
 
-	static bool keyPressed(int keycode);
-	static bool keyJPressed(int keycode);
+	bool keyPressed(int keycode) const;
+	bool keyJPressed(int keycode) const;
 
-	static bool mousePressed(int button);
-	static bool mouseJPressed(int button);
-	static bool mouseReleased(int button);
+	bool mousePressed(int button) const;
+	bool mouseJPressed(int button) const;
+	bool mouseReleased(int button) const;
 
-	static const glm::vec2& mousePos();
-	static const glm::vec2& mouseDeltaPos();
-	static float mouseScrollDelta();
+	const glm::vec2& mousePos() const;
+	const glm::vec2& mouseDeltaPos() const;
+	double mouseScrollDelta() const;
 
 private:
+	static bool sm_Keys[KEYS_SIZE];
+	static uint_32 sm_Frames[KEYS_SIZE];
+	static uint_32 sm_CurrentFrame;
 
-	static bool s_Keys[KEYS_SIZE];
-	static uint_32 s_Frames[KEYS_SIZE];
-	static uint_32 s_CurrentFrame;
-	static glm::vec2 s_MousePos;
-	static glm::vec2 s_MouseDeltaPos;
-	static bool s_CursorLoked;
-	static bool s_CursorStarted;
-	static float s_MouseScrollDelta;
-	static bool s_MouseRelease;
+	static glm::vec2 sm_MousePos;
+	static glm::vec2 sm_MouseDeltaPos;
+	static double sm_MouseScrollDelta;
 
+	static bool sm_CursorLoked;
+	static bool sm_CursorStarted;
+	static bool sm_MouseRelease;
+
+private:
 	static void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mode);
 	static void mouseButtonCallback(GLFWwindow* window, int button, int action, int mode);
 	static void cursorPositionCallback(GLFWwindow* window, double x_pos, double y_pos);
 	static void scrollCallback(GLFWwindow* window, double xoffset, double yoffset);
-
 };
 

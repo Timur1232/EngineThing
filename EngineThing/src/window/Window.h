@@ -1,29 +1,29 @@
 #pragma once
 
+#include "../events/Events.h"
+
 struct GLFWwindow;
-class Events;
 
 class Window
 {
 public:
+	Window() = default;
 
-	friend Events;
+	int initialize(int width, int height, const char* title);
+	void terminate();
 
-	static int initialize(int width, int height, const char* title);
-	static void terminate();
+	bool shouldClose() const;
+	int getWidth() const;
+	int getHeight() const;
+	GLFWwindow* getWindowPtr() const;
 
-	static bool shouldClose();
-	static void setShouldClose(bool flag);
-	static void swapBuffers();
-	static int getWidth();
-	static int getHeight();
-	static void clearScreen();
+	void setShouldClose(bool flag);
+	void swapBuffers() const;
+	void clearScreen() const;
 
 private:
-
-	static GLFWwindow* sm_Window;
-	static int sm_Width;
-	static int sm_Height;
-
+	GLFWwindow* m_Window = nullptr;
+	int m_Width = 0;
+	int m_Height = 0;
 };
 

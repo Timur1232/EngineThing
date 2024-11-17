@@ -1,8 +1,12 @@
 #pragma once
 
+#include "glm/glm.hpp"
+
 #include "../Object2DBase.h"
 #include "../../graphics/shader/Shader.h"
-#include "glm/glm.hpp"
+
+class Events;
+class Window;
 
 class Circle2D : public Object2DBase
 {
@@ -13,8 +17,9 @@ public:
 	Circle2D(const glm::ivec2& pos, float radius);
 	Circle2D(const glm::ivec2& pos, float radius, float thickness);
 
-	void draw() override;
-	bool onHover() override;
+	void draw(const Window& window) override;
+	// TODO: Переделать метод
+	bool onHover(const Events& events, const Window& window) override;
 
 	float radius = 1.0f;
 	float thickness = 1.0f;

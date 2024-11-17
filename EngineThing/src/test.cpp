@@ -18,12 +18,18 @@ constexpr int HEIGHT = 600;
 
 int main()
 {
-	if (Window::initialize(WIDTH, HEIGHT, "test"))
+	Window window;
+	if (window.initialize(WIDTH, HEIGHT, "test"))
 	{
 		std::cerr << "Failed to initialize Gl\n";
 		return -1;
 	}
-	Events::initialize();
+	Events events;
+	if (events.bindWindow(window.getWindowPtr()))
+	{
+		std::cerr << "Failed to bind window\n";
+		return -1;
+	}
 
 	Render2D::initialize();
 
@@ -36,51 +42,51 @@ int main()
 	//circle1.color = glm::vec3(1.0f, 0.0f, 0.0f);
 	//circle2.color = glm::vec3(0.0f, 1.0f, 0.0f);
 
-	while (!Window::shouldClose())
+	while (!window.shouldClose())
 	{
-		Events::pollIvents();
+		events.pollIvents();
 
-		if (Events::mouseScrollDelta() > 0)
+		if (events.mouseScrollDelta() > 0)
 		{
 			circle1.radius = glm::clamp(circle1.radius + 0.1f, 0.1f, 1.0f);
 		}
-		else if (Events::mouseScrollDelta() < 0)
+		else if (events.mouseScrollDelta() < 0)
 		{
 			circle1.radius = glm::clamp(circle1.radius - 0.1f, 0.2f, 1.0f);
 		}
 
-		if (circle2.onHover() && Events::mouseJPressed(GLFW_MOUSE_BUTTON_LEFT))
+		if (circle2.onHover(events, window) && events.mouseJPressed(GLFW_MOUSE_BUTTON_LEFT))
 		{
 			circle2.color = glm::vec3(0.0f, 0.0f, 1.0f);
 			hold2 = true;
 		}
-		else if (Events::mouseReleased(GLFW_MOUSE_BUTTON_LEFT))
+		else if (events.mouseReleased(GLFW_MOUSE_BUTTON_LEFT))
 		{
 			circle2.color = glm::vec3(1.0f, 1.0f, 1.0f);
 			hold2 = false;
 		}
-		if (circle1.onHover() && Events::mouseJPressed(GLFW_MOUSE_BUTTON_LEFT) && !hold2)
+		if (circle1.onHover(events, window) && events.mouseJPressed(GLFW_MOUSE_BUTTON_LEFT) && !hold2)
 		{
 			hold1 = true;
 		}
-		else if (Events::mouseReleased(GLFW_MOUSE_BUTTON_LEFT) && hold1)
+		else if (events.mouseReleased(GLFW_MOUSE_BUTTON_LEFT) && hold1)
 		{
 			hold1 = false;
 		}
 		
 		if (hold2)
 		{
-			circle2.position += Events::mouseDeltaPos();
+			circle2.position += events.mouseDeltaPos();
 		}
 		else if (hold1)
 		{
-			circle1.position += Events::mouseDeltaPos();
+			circle1.position += events.mouseDeltaPos();
 		}
 
-		circle1.draw();
-		circle2.draw();
+		circle1.draw(window);
+		circle2.draw(window);
 
-		Window::swapBuffers();
-		Window::clearScreen();
+		window.swapBuffers();
+		window.clearScreen();
 	}
 }

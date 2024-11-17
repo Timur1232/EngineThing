@@ -55,13 +55,13 @@ int initialize()
 	return 0;
 }
 
-void draw_circle(const glm::vec2& pos, float radius, float thickness, glm::vec3& color)
+void draw_circle(const glm::vec2& pos, float radius, float thickness, glm::vec3& color, const Window& window)
 {
 	s_CircleShader.use();
 	s_CircleShader.setUniform("iPosition", pos);
 	s_CircleShader.setUniform("iRadius", radius);
 	s_CircleShader.setUniform("iThickness", thickness);
-	s_CircleShader.setUniform("iResolution", glm::vec2(Window::getWidth(), Window::getHeight()));
+	s_CircleShader.setUniform("iResolution", glm::vec2(window.getWidth(), window.getHeight()));
 	s_CircleShader.setUniform("iColor", color);
 	s_CircleShader.setUniform("iFade", 0.005f);
 
