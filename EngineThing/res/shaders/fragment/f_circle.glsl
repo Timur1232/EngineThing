@@ -1,4 +1,4 @@
-#version 330
+#version 330 core
 
 uniform float iRadius;
 uniform float iThickness;
@@ -11,7 +11,6 @@ out vec4 FragColor;
 
 void main()
 {
-    // Normalized pixel coordinates (from -1 to 1)
     vec2 uv = gl_FragCoord.xy / iResolution.xy * 2.0 - 1.0;
     float aspect = iResolution.x / iResolution.y;
     uv.x *= aspect;

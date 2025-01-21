@@ -143,25 +143,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\graphics\render2D\Primitives2D.cpp" />
+    <ClCompile Include="src\graphics\render2D\Render2D.cpp" />
+    <ClCompile Include="src\objects2D\box2D\Box2D.cpp" />
     <ClCompile Include="src\objects2D\circle2D\Circle2D.cpp" />
     <ClCompile Include="src\objects2D\Object2DBase.cpp" />
-    <ClCompile Include="src\test.cpp" />
     <ClCompile Include="src\events\Events.cpp" />
     <ClCompile Include="src\graphics\loaders\shader_loader.cpp" />
     <ClCompile Include="src\graphics\loaders\texture_loader.cpp" />
     <ClCompile Include="src\graphics\shader\Shader.cpp" />
     <ClCompile Include="src\graphics\texture\Texture.cpp" />
+    <ClCompile Include="src\Source.cpp" />
     <ClCompile Include="src\window\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\types.h" />
+    <ClInclude Include="src\camera\Camera2D.h" />
     <ClInclude Include="src\events\Events.h" />
     <ClInclude Include="src\graphics\loaders\shader_loader.h" />
     <ClInclude Include="src\graphics\loaders\texture_loader.h" />
-    <ClInclude Include="src\graphics\render2D\Primitives2D.h" />
+    <ClInclude Include="src\graphics\render2D\Render2D.h" />
     <ClInclude Include="src\graphics\shader\Shader.h" />
     <ClInclude Include="src\graphics\texture\Texture.h" />
+    <ClInclude Include="src\objects2D\box2D\Box2D.h" />
     <ClInclude Include="src\objects2D\circle2D\Circle2D.h" />
     <ClInclude Include="src\objects2D\Object2DBase.h" />
     <ClInclude Include="src\window\Window.h" />

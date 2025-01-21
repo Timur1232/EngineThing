@@ -9,7 +9,6 @@
 #include "window/Window.h"
 #include "graphics/shader/Shader.h"
 #include "events/Events.h"
-#include "graphics/render2D/Primitives2D.h"
 
 #include "objects2D/circle2D/Circle2D.h"
 
@@ -18,6 +17,8 @@ constexpr int HEIGHT = 600;
 
 int main()
 {
+	using namespace EngineThing;
+
 	Window window;
 	if (window.initialize(WIDTH, HEIGHT, "test"))
 	{
@@ -25,13 +26,11 @@ int main()
 		return -1;
 	}
 	Events events;
-	if (events.bindWindow(window.getWindowPtr()))
+	if (events.bindWindow(window))
 	{
 		std::cerr << "Failed to bind window\n";
 		return -1;
 	}
-
-	Render2D::initialize();
 
 	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
@@ -48,11 +47,13 @@ int main()
 
 		if (events.mouseScrollDelta() > 0)
 		{
-			circle1.radius = glm::clamp(circle1.radius + 0.1f, 0.1f, 1.0f);
+			circle1.radius = glm::clamp(circle1.radius + 0.1f, 0.1f, 1.1f);
+			circle1.thickness = circle1.radius + 0.1f;
 		}
 		else if (events.mouseScrollDelta() < 0)
 		{
-			circle1.radius = glm::clamp(circle1.radius - 0.1f, 0.2f, 1.0f);
+			circle1.radius = glm::clamp(circle1.radius - 0.1f, 0.1f, 1.1f);
+			circle1.thickness = circle1.radius + 0.1f;
 		}
 
 		if (circle2.onHover(events, window) && events.mouseJPressed(GLFW_MOUSE_BUTTON_LEFT))
@@ -65,6 +66,7 @@ int main()
 			circle2.color = glm::vec3(1.0f, 1.0f, 1.0f);
 			hold2 = false;
 		}
+
 		if (circle1.onHover(events, window) && events.mouseJPressed(GLFW_MOUSE_BUTTON_LEFT) && !hold2)
 		{
 			hold1 = true;

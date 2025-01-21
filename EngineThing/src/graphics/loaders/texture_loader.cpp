@@ -11,6 +11,8 @@
 
 #include <types.h>
 
+namespace EngineThing
+{
 
 uint_32 png_load(const char* fileName, int* width, int* height)
 {
@@ -21,7 +23,7 @@ uint_32 png_load(const char* fileName, int* width, int* height)
     size_t rowBytes;
     png_infop infoPtr, endInfo;
     png_uint_32 t_width, t_height;
-    png_byte header[8], *imageData;
+    png_byte header[8], * imageData;
     png_bytepp rowPointers;
     png_structp pngPtr;
     int alpha;
@@ -143,3 +145,5 @@ uint_32 png_load(const char* fileName, int* width, int* height)
 
     return textureId;
 }
+
+} // EngineThing

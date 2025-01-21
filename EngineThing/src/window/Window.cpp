@@ -6,19 +6,27 @@
 
 #include "../events/Events.h"
 
+namespace EngineThing
+{
+
+bool Window::sm_Initialized = false;
+
 int Window::initialize(int width, int height, const char* title)
 {
-	glewExperimental = GL_TRUE;
-
-	if (!glfwInit())
+	if (!sm_Initialized)
 	{
-		return -1;
-	}
+		glewExperimental = GL_TRUE;
 
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
+		if (!glfwInit())
+		{
+			return -1;
+		}
+
+		glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+		glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+		glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+		glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
+	}
 
 	m_Window = glfwCreateWindow(width, height, title, nullptr, nullptr);
 	if (!m_Window)
@@ -29,20 +37,23 @@ int Window::initialize(int width, int height, const char* title)
 	}
 	glfwMakeContextCurrent(m_Window);
 
-	if (glewInit() != GLEW_OK)
+	if (!sm_Initialized)
 	{
-		std::cerr << "Failed to initialize GLEW" << std::endl;
-		glfwTerminate();
-		return -1;
+		if (glewInit() != GLEW_OK)
+		{
+			std::cerr << "Failed to initialize GLEW" << std::endl;
+			glfwTerminate();
+			return -1;
+		}
 	}
 
 	glViewport(0, 0, width, height);
 	m_Width = width;
 	m_Height = height;
-
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
+	sm_Initialized = true;
 	return 0;
 }
 
@@ -85,3 +96,5 @@ void Window::clearScreen() const
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 }
+
+} // EngineThing

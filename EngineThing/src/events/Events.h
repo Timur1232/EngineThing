@@ -6,6 +6,11 @@
 
 struct GLFWwindow;
 
+namespace EngineThing
+{
+
+class Window;
+
 constexpr int KEYS_SIZE = 1032;
 constexpr int MOUSE_BUTTONS = 1024;
 
@@ -15,7 +20,7 @@ public:
 	Events() = default;
 	Events(const Events&) = delete;
 
-	int bindWindow(GLFWwindow* window);
+	int bindWindow(const Window& window);
 	void pollIvents() const;
 
 	bool keyPressed(int keycode) const;
@@ -49,3 +54,4 @@ private:
 	static void scrollCallback(GLFWwindow* window, double xoffset, double yoffset);
 };
 
+} // EngineThing

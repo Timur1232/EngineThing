@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "D:\\source\\repos\\EngineThing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\circle2D\\Circle2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\Object2DBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Primitives2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\graphics\\render2D\\Primitives2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\Object2DBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Primitives2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\graphics\\render2D\\Primitives2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\box2D\\Box2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\box2D\\Box2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\box2D\\Box2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\box2D\\Box2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\camera\\Camera2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\camera\\Camera2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\Object2DBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\shader\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\graphics\\shader\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\window\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\window\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\objects2D\\circle2D\\Circle2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\window\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\window\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Render2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\graphics\\render2D\\Render2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Render2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC41D068-916B-4AAF-90AC-93F8A5F4A49A}|EngineThing\\EngineThing.vcxproj|solutionrelative:EngineThing\\src\\graphics\\render2D\\Render2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\EngineThing\\EngineThing\\src\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EngineThing\\src\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,102 +58,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Window.cpp",
-              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\window\\Window.cpp",
-              "RelativeDocumentMoniker": "EngineThing\\src\\window\\Window.cpp",
-              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\window\\Window.cpp",
-              "RelativeToolTip": "EngineThing\\src\\window\\Window.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAwwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-17T20:44:33.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Window.h",
-              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\window\\Window.h",
-              "RelativeDocumentMoniker": "EngineThing\\src\\window\\Window.h",
-              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\window\\Window.h",
-              "RelativeToolTip": "EngineThing\\src\\window\\Window.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-17T20:44:16.136Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Object2DBase.h",
-              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.h",
-              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\Object2DBase.h",
-              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.h",
-              "RelativeToolTip": "EngineThing\\src\\objects2D\\Object2DBase.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Title": "Camera2D.h",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\camera\\Camera2D.h",
+              "RelativeDocumentMoniker": "EngineThing\\src\\camera\\Camera2D.h",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\camera\\Camera2D.h",
+              "RelativeToolTip": "EngineThing\\src\\camera\\Camera2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-17T20:43:57.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Circle2D.cpp",
-              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
-              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
-              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
-              "RelativeToolTip": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-17T20:43:38.661Z",
+              "WhenOpened": "2024-11-20T18:46:38.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Primitives2D.cpp",
-              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Primitives2D.cpp",
-              "RelativeDocumentMoniker": "EngineThing\\src\\graphics\\render2D\\Primitives2D.cpp",
-              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Primitives2D.cpp",
-              "RelativeToolTip": "EngineThing\\src\\graphics\\render2D\\Primitives2D.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADkAAABdAAAAAAAAAA==",
+              "Title": "Box2D.cpp",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\box2D\\Box2D.cpp",
+              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\box2D\\Box2D.cpp",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\box2D\\Box2D.cpp",
+              "RelativeToolTip": "EngineThing\\src\\objects2D\\box2D\\Box2D.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-17T20:42:11.88Z",
+              "WhenOpened": "2024-11-19T20:49:29.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Circle2D.h",
-              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
-              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
-              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
-              "RelativeToolTip": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Box2D.h",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\box2D\\Box2D.h",
+              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\box2D\\Box2D.h",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\box2D\\Box2D.h",
+              "RelativeToolTip": "EngineThing\\src\\objects2D\\box2D\\Box2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-17T20:41:52.892Z",
+              "WhenOpened": "2024-11-19T20:47:02.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\Source.cpp",
+              "RelativeDocumentMoniker": "EngineThing\\src\\Source.cpp",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\Source.cpp",
+              "RelativeToolTip": "EngineThing\\src\\Source.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T18:51:42.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Shader.cpp",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\shader\\Shader.cpp",
+              "RelativeDocumentMoniker": "EngineThing\\src\\graphics\\shader\\Shader.cpp",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\shader\\Shader.cpp",
+              "RelativeToolTip": "EngineThing\\src\\graphics\\shader\\Shader.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T19:01:02.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Render2D.h",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Render2D.h",
+              "RelativeDocumentMoniker": "EngineThing\\src\\graphics\\render2D\\Render2D.h",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Render2D.h",
+              "RelativeToolTip": "EngineThing\\src\\graphics\\render2D\\Render2D.h",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T18:24:42.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Render2D.cpp",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Render2D.cpp",
+              "RelativeDocumentMoniker": "EngineThing\\src\\graphics\\render2D\\Render2D.cpp",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Render2D.cpp",
+              "RelativeToolTip": "EngineThing\\src\\graphics\\render2D\\Render2D.cpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAH0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T18:24:29.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Primitives2D.h",
-              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Primitives2D.h",
-              "RelativeDocumentMoniker": "EngineThing\\src\\graphics\\render2D\\Primitives2D.h",
-              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\graphics\\render2D\\Primitives2D.h",
-              "RelativeToolTip": "EngineThing\\src\\graphics\\render2D\\Primitives2D.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-17T20:41:35.341Z",
+              "Title": "Object2DBase.cpp",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.cpp",
+              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\Object2DBase.cpp",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.cpp",
+              "RelativeToolTip": "EngineThing\\src\\objects2D\\Object2DBase.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T17:53:50.406Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Object2DBase.h",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.h",
+              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\Object2DBase.h",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\Object2DBase.h",
+              "RelativeToolTip": "EngineThing\\src\\objects2D\\Object2DBase.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T17:51:05.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Circle2D.h",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
+              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
+              "RelativeToolTip": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T17:25:45.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Circle2D.cpp",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
+              "RelativeDocumentMoniker": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
+              "RelativeToolTip": "EngineThing\\src\\objects2D\\circle2D\\Circle2D.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T17:15:10.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\test.cpp",
+              "RelativeDocumentMoniker": "EngineThing\\src\\test.cpp",
+              "ToolTip": "D:\\source\\repos\\EngineThing\\EngineThing\\src\\test.cpp",
+              "RelativeToolTip": "EngineThing\\src\\test.cpp",
+              "ViewState": "AgIAABkAAAAAAAAAAABBwEIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T17:08:04.528Z",
+              "EditorCaption": ""
             }
           ]
         }

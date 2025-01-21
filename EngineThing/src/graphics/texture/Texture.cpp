@@ -9,6 +9,9 @@
 
 #include "../loaders/texture_loader.h"
 
+namespace EngineThing
+{
+
 Texture::~Texture()
 {
     deleteTexture();
@@ -43,3 +46,5 @@ void Texture::bind() const
 {
 	glBindTexture(GL_TEXTURE_2D, m_Id);
 }
+
+} // EngineThing

@@ -1,20 +1,19 @@
-#version 330
+#version 330 core
 
-layout (location = 0) in vec2 iResolution;
-layout (location = 1) in vec2 iPosition;
+layout (location = 0) in vec2 v_position;
 
-out vec2 uv;
+uniform vec2 iPosition;
+uniform float iRadius;
+uniform vec2 iResolution;
 
 void main()
 {
-    float aspect = iResolution.x / iResolution.y;
-    uv = gl_FragCoord.xy / iResolution.xy * 2.0 - 1.0;
-    uv.x *= aspect;
-
-    vec2 pos = iPosition;
-    pos = pos / iResolution.xy * 2.0 - 1.0;
-    pos.x *= aspect;
-    uv -= pos;
-
-    
+    mat2 scale = mat2(
+        iRadius, 0.0,
+        0.0, iRadius
+    );
+    gl_Position = vec4(v_position * scale, 0.0, 1.0);
+    vec2 delta = (iPosition.xy / iResolution.xy) * 2.0 - 1.0;
+    delta.y = -delta.y;
+    gl_Position += vec4(delta, 0.0, 0.0);
 }

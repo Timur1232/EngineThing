@@ -10,6 +10,8 @@
 
 #include <types.h>
 
+namespace EngineThing
+{
 
 uint_32 load_shader(const char* vertexShader, const char* fragmentShader)
 {
@@ -95,3 +97,5 @@ uint_32 load_shader(const char* vertexShader, const char* fragmentShader)
 
     return id;
 }
+
+} // EngineThing

@@ -4,6 +4,9 @@
 
 struct GLFWwindow;
 
+namespace EngineThing
+{
+
 class Window
 {
 public:
@@ -25,5 +28,7 @@ private:
 	GLFWwindow* m_Window = nullptr;
 	int m_Width = 0;
 	int m_Height = 0;
+	static bool sm_Initialized;
 };
 
+} // EngineThing

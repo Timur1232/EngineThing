@@ -7,6 +7,9 @@
 #include <types.h>
 #include "../window/Window.h"
 
+namespace EngineThing
+{
+
 bool Events::sm_Keys[KEYS_SIZE] = { 0 };
 uint_32 Events::sm_Frames[KEYS_SIZE] = { 0 };
 uint_32 Events::sm_CurrentFrame = 0;
@@ -19,13 +22,13 @@ bool Events::sm_CursorLoked = false;
 bool Events::sm_CursorStarted = false;
 bool Events::sm_MouseRelease = false;
 
-int Events::bindWindow(GLFWwindow* window)
+int Events::bindWindow(const Window& window)
 {
-	if (!window) return -1;
-	glfwSetKeyCallback(window, keyCallback);
-	glfwSetMouseButtonCallback(window, mouseButtonCallback);
-	glfwSetCursorPosCallback(window, cursorPositionCallback);
-	glfwSetScrollCallback(window, scrollCallback);
+	if (!window.getWindowPtr()) return -1;
+	glfwSetKeyCallback(window.getWindowPtr(), keyCallback);
+	glfwSetMouseButtonCallback(window.getWindowPtr(), mouseButtonCallback);
+	glfwSetCursorPosCallback(window.getWindowPtr(), cursorPositionCallback);
+	glfwSetScrollCallback(window.getWindowPtr(), scrollCallback);
 	return 0;
 }
 
@@ -133,3 +136,5 @@ void Events::scrollCallback(GLFWwindow* window, double xoffset, double yoffset)
 {
 	sm_MouseScrollDelta = yoffset;
 }
+
+} // EngineThing

@@ -11,9 +11,11 @@
 
 #include "../loaders/shader_loader.h"
 
+namespace EngineThing
+{
+
 Shader::~Shader()
 {
-	deleteShader();
 }
 
 void Shader::loadShader(const char* vertexShader, const char* fragmentShader)
@@ -74,3 +76,5 @@ void Shader::setUniform(const char* name, const glm::mat4& data)
 {
 	glUniformMatrix4fv(glGetUniformLocation(m_Id, name), 1, GL_FALSE, glm::value_ptr(data));
 }
+
+} // EngineThing
